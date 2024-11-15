@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,200..800;1,200..800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+*{
+  font-family: "Rajdhani",sans-serif;
+  font-weight: 600;
+}
+.rajdhani-light {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.rajdhani-regular {
+  font-family: "Rajdhani", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}

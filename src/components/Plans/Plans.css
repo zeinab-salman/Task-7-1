@@ -1,0 +1,49 @@
+.plans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.princing-switch p {
+    margin-top: 15px;
+    margin-left: 5px;
+    color: rgb(40, 131, 229);
+}
+
+.plans h2 {
+    font-weight: 800;
+}
+
+.plans a {
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.arm-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.jw-img {
+
+    position: absolute;
+    right: 40px;
+    top: 70px;
+}
+
+@media (max-width:900px) {
+    .cards-p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+}

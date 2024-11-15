@@ -1,0 +1,24 @@
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand img {
+    margin-right: 40px;
+}
+
+.line-row {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    align-self: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.brand-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

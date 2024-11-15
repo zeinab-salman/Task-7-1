@@ -1,0 +1,40 @@
+.client-feed-back {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f2f6fe;
+}
+
+.client-feed-back h2 {
+    font-weight: 800;
+}
+
+.client-feed-back a {
+    margin-bottom: 20px;
+}
+
+.clientcards {
+    margin-top: 20px;
+}
+
+.client-feed-back a {
+    text-decoration: none;
+}
+.card110{
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+     
+  }
+  @media (max-width:900px) {
+   
+   .client-feed-back{padding: 0px;}
+   .clientcards{
+    --bs-gutter-x: 0rem !important;
+
+   }
+  }

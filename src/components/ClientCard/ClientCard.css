@@ -1,0 +1,27 @@
+.clientcard {
+    padding: 30px;
+    border: none;
+    background-color: white;
+}
+.clientcard:hover{
+    background-color: #384bff;
+     color: white;
+}
+
+.clientcard img {
+    margin-right: 10px;
+}
+
+.clientcard p {
+    margin-top: 10px;
+    color: grey;
+}
+
+.clientcard:active.clientcard {
+    background-color: #384bff;
+    color: white;
+}
+@media (max-width:900px) {
+   .clientcard{width: 90%;
+margin-left: 20px;
+}}

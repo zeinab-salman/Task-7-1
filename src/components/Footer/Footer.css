@@ -1,0 +1,85 @@
+.footer{
+  padding: 100px;
+  background-color:#18185e ;
+  color: white;
+}
+.card11 img{
+margin-bottom: 20px;
+}
+.footer ul{
+    list-style: none;
+    
+  
+}
+.footer ul li{
+margin-bottom: 20px;
+}
+.line-f{
+    width: 30px;
+    height: 1px;
+    background-color: white;
+    border-top-right-radius:50% ;
+    border-bottom-right-radius: 50%;
+    
+}
+.social a{
+    color: white;
+    margin: 5px;
+}
+
+.social .frame{
+    padding: 7px;
+    border: 1px solid white;
+    margin: 4px;
+}
+#date2{
+    color: rgba(255, 255, 255, 0.646);
+}
+.footer .post{
+    padding: 10px;
+
+}
+.footer .post img{
+    height: 90px;
+    margin-right: 10px;
+}
+.cont input{
+   margin-top: 10px; 
+   margin-bottom: 10px;
+   border-radius: 5px;
+   padding: 5px;
+}
+.footer2{
+    background-color: rgb(69, 69, 196) ;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.quick-ul{
+   transform: translate(-35px,0px);
+}
+.icon-fo{
+    color: white;
+    background-color:#384bff;
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: 800;
+    transform: translate(-35px,-1px);
+}
+@media  
+  (max-width: 600px) {
+
+    .footer{
+        padding-top: 160px;
+      padding-left: 10px;
+    }
+
+.footer2{
+    flex-direction: column;
+}
+.footer input{display: block;}
+.icon-fo{display: none;}
+
+
+}
